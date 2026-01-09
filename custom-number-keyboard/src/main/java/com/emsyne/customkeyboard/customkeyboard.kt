@@ -196,7 +196,7 @@ class CustomNumberKeyboardView @JvmOverloads constructor(
     // ---------- ACTIONS ----------
     private fun appendNumber(number: String) {
         targetEditText?.let {
-            if (it.text.length < 4) it.append(number)
+           it.append(number)
         }
     }
 
